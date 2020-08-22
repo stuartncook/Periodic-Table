@@ -1,0 +1,136 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+html, body {
+    height: 100%;
+    background-color: white;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:â€™â€™;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#content b {
+    font-weight: 400;
+}
+#content i {
+    font-style: italic;
+}
+
+
+
+/*----- periodic table -----*/
+svg {
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+}
+#periodicwrap {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px; 
+}
+.periodic-title {
+    display: block;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
+}
+.pdc_labels {
+    font-size: 13px;
+    fill: #494949;
+}
+.pdc_numbers {
+    font-size: 10px;
+    fill: #494949;
+}
+.db_element {
+    font-size: 21px;
+}
+.db_symbol {
+    font-size: 27px;
+}
+.db_no {
+    font-size: 12px;
+}
+.db_variable {
+    font-size: 15px;
+}
+.pdc_sub_title {
+    font-size: 18px;
+
+}
+.pdc_buttons {
+    font-size: 16px;
+}
+.pdc_buttons:hover {
+    cursor: pointer;
+}
+a.pdc_ref {
+    font-size: 12px;    
+}
+.ion_buttons {
+    font-size: 12px;    
+} 
+.ib_title {
+    font-size: 16px;   
+}
